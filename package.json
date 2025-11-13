@@ -1,0 +1,21 @@
+{
+  "name": "cms-filter-custom",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:umd": "vite build --config vite.lib.config.js",
+    "build:all:win": "npm run build && npm run build:umd && copy dist-umd\\main.js dist\\main.js",
+    "build:all:netlify": "npm run build && npm run build:umd && mkdir -p dist && cp dist-umd/main.js dist/main.js",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "main": "vite.config.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
