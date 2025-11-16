@@ -1,6 +1,6 @@
 import './styles/style.css';
 
-console.log("CMS Filter Code Initialized");
+console.log("CMS Filter Code Initializd!");
 
 (function (){
 
