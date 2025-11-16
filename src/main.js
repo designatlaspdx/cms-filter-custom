@@ -1,5 +1,5 @@
 import './styles/style.css';
-console.log('CMS Filter Custom Loaded');
+console.log('CMS Filter Custom Loader Initialized');
 
 (function(){
 
